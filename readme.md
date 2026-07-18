@@ -66,7 +66,11 @@ Scans OS packages and Node.js libraries for HIGH and CRITICAL vulnerabilities. O
 - Deploy to AWS ECS Fargate
 
 ---
+## Credits
+Original application by Gustavo Noronha
+GitHub: https://github.com/gusttavonl/LinkedInMernClone
 
 ## Author
-
-Celes Anusha Joseph
+Anusha Joseph
+Built a CI/CD pipeline, Dockerfile, and GitHub Actions workflow on top of the application.
+GitHub: https://github.com/AnushaJoseph-00
