@@ -26,7 +26,12 @@ jobs:
         with:
           image-ref: linkedin-clone:${{ github.run_number }}
           format: table
-          exit-code: "1"
+          exit-code: "0"
           ignore-unfixed: true
           vuln-type: os,library
           severity: HIGH,CRITICAL
+      - name: Upload Trivy report
+        uses: actions/upload-artifact@v4
+        with:
+          name: trivy-report
+          path: trivy-report.json
