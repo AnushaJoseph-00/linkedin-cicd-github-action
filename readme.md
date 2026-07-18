@@ -23,6 +23,7 @@ Image Registry: Amazon ECR (updating soon)
 
 ## Project Structure
 
+```
 linkedin-cicd-github-action/
 ├── .github/
 │   └── workflows/
@@ -32,6 +33,7 @@ linkedin-cicd-github-action/
 ├── Dockerfile                # Multi-stage Docker build
 ├── .gitignore
 └── README.md
+```
 
 ---
 
@@ -45,10 +47,10 @@ Two-stage build. Stage 1 builds the React app. Stage 2 runs the Express backend 
 
 Triggers on push to main. Runs four steps:
 
-1. Checkout — pulls code from GitHub into the runner
-2. Build — builds a Docker image tagged with github.run_number
-3. Trivy scan — scans for HIGH and CRITICAL vulnerabilities, exports JSON report
-4. Upload artifact — saves the JSON report as a downloadable artifact in the Actions tab
+1. Checkout - pulls code from GitHub into the runner
+2. Build - builds a Docker image tagged with github.run_number
+3. Trivy scan - scans for HIGH and CRITICAL vulnerabilities, exports JSON report
+4. Upload artifact - saves the JSON report as a downloadable artifact in the Actions tab
 
 ---
 
