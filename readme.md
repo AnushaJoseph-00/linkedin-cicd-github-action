@@ -1,5 +1,5 @@
 
-# LinkedIn Clone — CI/CD Pipeline with GitHub Actions & Trivy
+# LinkedIn Clone - CI/CD Pipeline with GitHub Actions & Trivy
 
 A CI/CD pipeline built around a LinkedIn MERN clone, demonstrating automated Docker image builds and security vulnerability scanning using GitHub Actions and Trivy.
 
@@ -27,9 +27,10 @@ linkedin-cicd-github-action/
 ├── .github/
 │   └── workflows/
 │       └── deploy.yml
-├── frontend/
-├── backend/
-├── Dockerfile
+├── frontend/                 # React.js application
+├── backend/                  # Node.js Express API
+├── Dockerfile                # Multi-stage Docker build
+├── .gitignore
 └── README.md
 
 ---
