@@ -4,7 +4,7 @@
 FROM node:16-alpine AS frontend-builder
 WORKDIR /app/frontend
 COPY frontend/package*.json ./
-RUN npm install
+RUN npm install && npm install axios
 COPY frontend/ ./
 RUN npm run build
 
