@@ -71,6 +71,6 @@ Original application by Gustavo Noronha
 GitHub: https://github.com/gusttavonl/LinkedInMernClone
 
 ## Author
-Anusha Joseph
+- Anusha Joseph
 Built a CI/CD pipeline, Dockerfile, and GitHub Actions workflow on top of the application.
 GitHub: https://github.com/AnushaJoseph-00
