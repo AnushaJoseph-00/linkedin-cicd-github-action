@@ -70,7 +70,5 @@ Scans OS packages and Node.js libraries for HIGH and CRITICAL vulnerabilities. O
 Original application by Gustavo Noronha
 GitHub: https://github.com/gusttavonl/LinkedInMernClone
 
-## Author
-- Anusha Joseph
 Built a CI/CD pipeline, Dockerfile, and GitHub Actions workflow on top of the application.
 GitHub: https://github.com/AnushaJoseph-00
