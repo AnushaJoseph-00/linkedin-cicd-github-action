@@ -7,8 +7,6 @@ A CI/CD pipeline built around a LinkedIn MERN clone, demonstrating automated Doc
 
 ## Pipeline Overview
 
-![CI](https://github.com/AnushaJoseph-00/linkedin-cicd-github-action/actions/workflows/deploy.yml/badge.svg)
-
 Push to main → Checkout Code → Build Docker Image → Trivy Security Scan → Upload Scan Report
 
 ---
