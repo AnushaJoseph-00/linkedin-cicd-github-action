@@ -11,7 +11,7 @@ Push to main → Checkout Code → Build Docker Image → Trivy Security Scan �
 
 ## Pipeline Images
 
-![Pipeline Result](Images/Pipeline_Passing.jpg)
+![Pipeline Passing](Images/Pipeline_Passing.jpg)
 
 
 ![Pipeline Stages](Images/Pipeline_stages_image.jpg)
