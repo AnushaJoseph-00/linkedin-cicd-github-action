@@ -9,6 +9,8 @@ A CI/CD pipeline built around a LinkedIn MERN clone, demonstrating automated Doc
 
 Push to main → Checkout Code → Build Docker Image → Trivy Security Scan → Upload Scan Report
 
+![Pipeline Result](Images/Pipeline_Passing.jpg)
+![Pipeline Stages](Images/Pipeline_stages_image.jpg)
 ---
 
 ## Tech Stack
